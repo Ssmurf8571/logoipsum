@@ -1,0 +1,98 @@
+.bg-FF7143 {background-color: #FF7143!important;}.bg-5454D4 {background-color: #5454D4!important;}
+
+.bg-F7F7FB {
+    background-color: #F7F7FB!important;
+}
+
+.bg-F8F8F8 {
+    background-color: #F8F8F8;
+}
+
+.bg-FFFFFF {
+    background-color: #FFFFFF;
+}
+
+.bg-9F3919 {
+    background-color: #9F3919;
+}
+
+.color-19191B {
+    color: #19191B!important;
+}
+
+.color-696871 {
+    color: #696871!important;
+}
+
+.color-5454D4 {
+    color: #5454D4!important;
+}
+
+.color-1D293F {
+    color: #1D293F;
+}
+
+.height-min {
+    height: min-content;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {padding: 1.875rem 0;}
+
+header .nav .nav-link {padding: 0!important;letter-spacing: -0.468947px;}header .nav-link.active {color: #19191B;padding-bottom: 10px!important;border-bottom: 2px solid #5454D4;}.get-started {padding: 19px 60px!important;font-size: 17px;letter-spacing: -0.531474px;border-radius: 10px;}.hero-text {max-width: 459px; z-index: 5;}.hero-text h1 {margin-bottom: 30px;line-height: 77px;letter-spacing: -2.50105px;}.hero-text h5 {margin-bottom: 50px!important;line-height: 30px;letter-spacing: -0.625263px;}.down-arrow {margin-left: 2.5rem;width: 60px;height: 60px;border: 1px solid #E7E7E7;border-radius: 50px;cursor: pointer;}.hero-3d {position: relative;width: 610px;height: 644px; pointer-events: none;}
+
+.hero-3d img:nth-child(1) {position: absolute; top: 0; left: 0; z-index: 2;}
+.hero-3d img:nth-child(2) {position: absolute; top: 50%; left: 0; transform: translate(0, -50%); z-index: 1;}
+.hero-3d img:nth-child(3) {position: absolute; right: 0; bottom: 70px; z-index: 3;}
+
+.content-text {max-width: 459px;}.content-text h1 {letter-spacing: -1.56316px;}.content-text h5 {margin: 30px 0;line-height: 30px;letter-spacing: -0.625263px;}.content-text a {font-size: 17px;}section.plan .buttons {padding: 5px 6px;background-color: #F7F7FB;}section.plan .buttons .yearly {width: 160px;border-radius: 10px 0px 0px 10px;}
+.list-item {
+    margin-top: 30px;
+    padding: 34px 20px 27px;
+    border-radius: 10px;
+}
+
+.list-item.active {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 50px 35px 45px;
+}
+
+.list-item h6 {
+    letter-spacing: -0.562737px;
+}
+
+.list-item .contition {
+    line-height: 50px;
+}
+
+.list-item button {
+    width: 285px;
+}
+
+.list-item h1 span {
+    font-size: 28px;
+}
+
+
+
+
+
+@media(max-width: 992px) {
+    .hero-3d {position: absolute; right: 0;}
+}
